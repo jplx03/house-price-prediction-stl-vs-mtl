@@ -20,8 +20,9 @@ required libraries:
 - seaborn
 - torch
 
-to load the dataset directly from github:
-'''import pandas as pd
+to load the dataset directly from github, run:
+```
+import pandas as pd
 url = "https://raw.githubusercontent.com/jplx03/house-price-prediction-stl-vs-mtl/main/dataset/kc_house_data.csv"
 df = pd.read_csv(url)
-'''
+```
