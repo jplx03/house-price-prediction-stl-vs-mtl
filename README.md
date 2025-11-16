@@ -12,7 +12,7 @@ The project evaluates house price prediction performance under three learning ap
 The 'House Sales in King County, USA' dataset is used, with additional preprocessing and feature engineering. The goal is to compare STL vs MTL under consistent evaluation setup. 
 
 ## Use of GenAI: 
-We acknowledge that generative AI tools (e.g. ChatGPT, Perplexity) were used as supplementary aid during the development of the MTL model. Since the research paper referenced did not provide an official codebase, we relied on its mathematical formulation and used generative AI only to help clarify how certain components (such as the L₂,₁ norm, task-specific weight selection, optimisation loop, etc.) could be implemented in practice.
+We acknowledge that generative AI tools (e.g. ChatGPT, Perplexity) were used as supplementary aid during the development of the MTL model. Since the research paper referenced did not provide an official codebase, we relied on its mathematical formulation and used generative AI only to help clarify how certain components (such as the L₂,₁ norm, task-specific weight selection, optimisation loop, etc.) could be implemented in practice. <br>
 The final MTL implementation was written, adapted, and refined by our group based on our own understanding of the paper. No code was copied directly without modification. AI-generated examples served only as conceptual guidance, which we restructured to fit our dataset, architecture design, and training procedure.
 
 
